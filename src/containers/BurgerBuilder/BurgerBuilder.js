@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-//import Aux from "../../hoc/Aux";
+import Xus from "../../hoc/Xus";
 
 class BurgerBuilder extends Component {
   render() {
     return (
-      <div>
+      <Xus>
         <div>Burger</div>
         <div>Build Controls</div>
-      </div>
+      </Xus>
     );
   }
 }
